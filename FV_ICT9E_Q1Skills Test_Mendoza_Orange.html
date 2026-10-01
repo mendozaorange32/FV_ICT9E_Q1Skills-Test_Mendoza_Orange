@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Skills Test</title>
+    <style>
+       body {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            background-color: #eef2f5;
+            color: black;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .main-container {
+            width: 860px;
+            margin: 20px auto;
+            background-color: white;
+            border: 1px solid #cccccc;
+            padding: 20px;
+        }
+
+        .side-image {
+            width: 380px;
+            height: auto;
+            float: left;
+        }
+
+        .form-box {
+            width: 430px;
+            float: right;
+        }
+
+        .logo-img {
+            width: 70px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        h2 {
+            font-family: 'Courier New', monospace;
+            color: #0d3b66;
+            font-size: 22px;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        h4 {
+            font-family: 'Courier New', monospace;
+            color: #0d3b66;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        p, label, input, select, textarea, li, dt, dd, a {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        .input-field {
+            width: 95%;
+            padding: 6px;
+            margin-top: 3px;
+            border: 1px solid #cccccc;
+        }
+
+        .submit-btn {
+            background-color: #0d3b66;
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+            padding: 10px;
+            border: none;
+            width: 100%;
+        }
+
+        dt {
+            font-weight: bold;
+            display: inline;
+        }
+
+        dd {
+            display: inline;
+            margin-left: 5px;
+        }
+
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <img src="https://www.pngarts.com/files/4/Robot-PNG-Free-Download.png" alt="Robotics Image" class="side-image">
+
+        <div class="form-box">
+            <form action="">
+                <img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/8b5611eb-ff3a-407f-9adc-e116a23373fc/OBMC+LOGO+2024-04.png" alt="OBMC Logo" class="logo-img">
+                
+                <h2>OBMC Robotics Club<br>Application Form</h2>
+                
+                <p>Welcome! Fill out this application form to join our school's Robotics Club.</p>
+
+                <label for="fullname">Full Name:</label><br>
+                <input type="text" id="fullname" name="fullname" class="input-field"><br><br>
+
+                <label for="email">School Email:</label><br>
+                <input type="text" id="email" name="email" class="input-field"><br><br>
+
+                <label for="grade">Grade Level:</label><br>
+                <select id="grade" name="grade" class="input-field">
+                    <option value="Grade 7">Grade 7</option>
+                    <option value="Grade 8">Grade 8</option>
+                    <option value="Grade 9">Grade 9</option>
+                    <option value="Grade 10">Grade 10</option>
+                </select><br><br>
+
+                <label>Experience Level:</label><br>
+                <input type="radio" id="beginner" name="experience" value="Beginner">
+                <label for="beginner">Beginner</label>
+                <input type="radio" id="intermediate" name="experience" value="Intermediate">
+                <label for="intermediate">Intermediate</label>
+                <input type="radio" id="advanced" name="experience" value="Advanced">
+                <label for="advanced">Advanced</label><br><br>
+
+                <label>Areas of Interest:</label><br>
+                <input type="checkbox" id="building" name="interest" value="Building">
+                <label for="building">Building</label>
+                <input type="checkbox" id="programming" name="interest" value="Programming">
+                <label for="programming">Programming</label>
+                <input type="checkbox" id="electronics" name="interest" value="Electronics">
+                <label for="electronics">Electronics</label><br><br>
+
+                <label for="reason">Why do you want to join?</label><br>
+                <textarea id="reason" name="reason" rows="3" cols="30" class="input-field"></textarea><br><br>
+
+                <h4>Top Activities Offered:</h4>
+                <ul>
+                    <li>Line Following Robots</li>
+                    <li>Obstacle Avoidance Programming</li>
+                </ul>
+
+                <h4>Schedule Details:</h4>
+                <dl>
+                    <dt>Meeting Schedule:</dt>
+                    <dd>Every Friday afternoon</dd><br>
+                    <dt>Venue:</dt>
+                    <dd>Computer Lab 2</dd><br>
+                </dl>
+
+                <h4>Helpful Links:</h4>
+                <ol>
+                    <li><a href="https://www.firstinspires.org/programs/frc/get-started">FIRST Robotics Competition Get Started Guide</a></li>
+                    <li><a href="https://www.firstinspires.org/programs/youth-registration">FIRST Youth Registration Hub</a></li>
+                </ol><br>
+
+                <input type="submit" value="Submit Application" class="submit-btn">
+            </form>
+        </div>
+
+        <div class="clear"></div>
+    </div>
+</html>
